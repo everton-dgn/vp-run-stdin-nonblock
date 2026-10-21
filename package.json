@@ -1,0 +1,16 @@
+{
+  "name": "vp-run-stdin-nonblock",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.3",
+  "scripts": {
+    "probe": "node probe.mjs",
+    "up": "vp update --interactive --latest"
+  },
+  "dependencies": {
+    "is-number": "6.0.0"
+  },
+  "devDependencies": {
+    "vite-plus": "1.3.0"
+  }
+}
